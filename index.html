@@ -2,35 +2,229 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Netflix Australia - watch TV shows online, watch movies online. netflix.com </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>
+    Netflix Australia - watch TV shows online, watch movies online.
+    netflix.com
+  </title>
 </head>
 
 <body>
+  <div class="container">
     <header class="showcase">
-        <div class="showcase-top">
-            <svg class="logo">
-                <path
-                    d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"
-                    id="Fill-14">
-                </path>
-            </svg>
-            <a href="#" class="sign-in-btn">Sign In</a>
+      <div class="showcase-top">
+        <svg class="logo">
+          <path
+            d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"
+            id="Fill-14"></path>
+        </svg>
+        <a href="#" class="sign-in-btn">Sign In</a>
+      </div>
+      <div class="showcase-bottom">
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <h2>Watch anywhere. Cancel at anytime.</h2>
+        <div class="email-request">
+          <input type="email" name="email" class="email" id="id-email" placeholder="Email address" />
+          <button class="btn">
+            Try It Now <i class="fas fa-chevron-right btn-icon"></i>
+          </button>
         </div>
-        <div class="showcase-bottom">
-            <h1>Unlimited movies, TV shows and more.</h1>
-            <h2>Watch anywhere. Cancel at anytime.</h2>
-            <div class="email-request">
-                <input type="email" name="email" class="email" id="id-email" placeholder="Email address">
-                <button class="btn">Try It Now<i class="fas fa-chevron-right btn-icon"></i></button>
-            </div>
-            <p>Ready to watch Netflix? Enter your email to create or access your account.</p>
-        </div>
+        <p>
+          Ready to watch Netflix? Enter your email to create or access your
+          account.
+        </p>
+      </div>
     </header>
+
+    <!-- stories -->
+    <section class="stories-wrapper">
+      <div class="story story-1">
+        <div class="story-card">
+          <div class="comment">
+            <h1>Enjoy Netflix on your TV.</h1>
+            <h2>
+              Watch titles on Smart TVs, PlayStation, Xbox, Chromecast, Apple
+              TV, Blue-ray players and more.
+            </h2>
+          </div>
+          <div class="animation">
+            <img src="./images/tv-container.png" alt="Devices" srcset="" />
+            <video src="./images/video 1.m4v" class="video-1" autoplay playinline muted loop></video>
+          </div>
+        </div>
+      </div>
+      <div class="story story-2">
+        <div class="story-card">
+          <div class="animation">
+            <img src="./images/stranger-things-mobile.png" alt="mobile" srcset="" />
+            <div class="card-animation">
+              <img src="./images/stranger-things-logo.png" alt="logo" srcset="" />
+              <div class="card-animation-text">
+                <div class="text">
+                  <h4>Stranger Things</h4>
+                  <p class="downloading-animation">Downloading...</p>
+                </div>
+                <div class="loading-icon">
+                  <img src="./images/download-icon.gif" autoplay playinline muted loop></img>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comment">
+            <h1>
+              Download your shows to watch them on the go.
+            </h1>
+            <h2>
+              Save your data and watch all of your favorites offline.
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="story story-3">
+        <div class="story-card">
+          <div class="comment">
+            <h1>
+              Watch Netflix everywhere.
+            </h1>
+            <h2>
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop and TV without paying more.
+            </h2>
+          </div>
+          <div class="animation">
+            <img src="./images/devices-image.png" alt="Devices" srcset="" />
+            <video src="./images/video 2.m4v" class="animation-video" autoplay playinline muted loop></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq-section -->
+    <section class="faq-wrapper">
+      <h1>Frequently Asked Questions</h1>
+      <ul class="faq-list">
+        <li class="faq-items">
+          <button class="faq-question" id='question'>
+            What is Netflix?
+            <div class="x-button"></div>
+          </button>
+          <div class="faq-answer" id='answer'>
+            <p>
+              Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+              documentaries and
+              more on thousands of internet-connected devices.
+              <br>
+              <br>
+              You can watch it as much as you want, whenever you want without a single commercial – all for one low
+              monthly price.
+              There's always something new to discover, and new TV shows and movies are added every week!
+            </p>
+          </div>
+        </li>
+        <li class="faq-items">
+          <button class="faq-question" id='question'>
+            How much does Netflix cost?
+            <div class="x-button"></div>
+          </button>
+          <div class="faq-answer" id='answer'>
+            <p>
+              Watch titles on your smartphone, tablet, Smart TV, laptop or streaming device, all for one low fixed
+              monthly fee. Plans
+              start from $9.99 per month. No extra costs or contracts.
+            </p>
+          </div>
+        </li>
+        <li class="faq-items">
+          <button class="faq-question" id='question'>
+            Where can I watch Netflix?
+            <div class="x-button"></div>
+          </button>
+          <div class="faq-answer" id='answer'>
+            <p>
+              Watch Netflix anywhere, at any time on an unlimited number of devices. Sign in with your Netflix account
+              to watch
+              instantly on the web at netflix.com from your personal computer or on any internet-connected device that
+              offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+              <br>
+              <br>
+              You can also download your favourite shows with the iOS, Android or Windows 10 app. Use downloads to watch
+              titles while
+              you're on the go and without an internet connection. Take Netflix with you anywhere.
+            </p>
+          </div>
+        </li>
+        <li class="faq-items">
+          <button class="faq-question" id='question'>
+            How do I cancel?
+            <div class="x-button"></div>
+          </button>
+          <div class="faq-answer" id='answer'>
+            <p>
+              You can also download your favourite shows with the iOS, Android or Windows 10 app. Use downloads to watch
+              titles while
+              you're on the go and without an internet connection. Take Netflix with you anywhere.
+            </p>
+          </div>
+        </li>
+        <li class="faq-items">
+          <button class="faq-question" id='question'>
+            What can I watch on Netflix?
+            <div class="x-button"></div>
+          </button>
+          <div class="faq-answer" id='answer'>
+            <p>
+              Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
+              Originals and
+              more. Watch as much as you want, at any time that you want.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <div class="email-request">
+        <input type="email" name="email" class="email" id="id-email" placeholder="Email address" />
+        <button class="btn">
+          Try It Now <i class="fas fa-chevron-right btn-icon"></i>
+        </button>
+      </div>
+      <p>
+        Ready to watch Netflix? Enter your email to create or access your
+        account.
+      </p>
+    </section>
+
+    <!-- footer -->
+    <Section class="footer-wrapper">
+      <div class="footer-links">
+        <p class="footer-top">Questions? Phone <a href="#">1800 071 578</a></p>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Investor relations</a></li>
+          <li><a href="#">Ways to watch</a></li>
+          <li><a href="#">Corporate information</a></li>
+          <li><a href="#">Netflix Originals</a></li>
+          <li><a href="#">Help Centre</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Redeem gift cards</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Speed test</a></li>
+          <li><a href="#">Media Centre</a></li>
+          <li><a href="#">Buy gift cards</a></li>
+          <li><a href="#">Cookie preferences</a></li>
+          <li><a href="#">Legal notices</a></li>
+        </ul>
+        <p class="country">Netflix Australia</p>
+      </div>
+    </Section>
+  </div>
+  <script defer src="index.js"></script>
 </body>
 
 </html>
